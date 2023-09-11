@@ -120,21 +120,7 @@ const PostList = () => {
                   </ul>
                 )}
               </div>
-              {/* {isAdmin && selectedPost !== post.id && (
-                <div className={styles["action-item"]}>
-                  {isEditing ? (
-                    <>
-                      <button onClick={handleSaveEdit}>Save</button>
-                      <button onClick={handleCancelEdit}>Cancel</button>
-                    </>
-                  ) : (
-                    <Link to={`/read-more/${post.id}`} className={styles['read-more']}>
-                      Read more
-                    </Link>
-                  )}
-                  
-                </div>
-              )} */}
+              
 
               {isAdmin && (
                 <div>
